@@ -1,30 +1,18 @@
-# TF-Col Psychometric Validation
+# Data availability
 
-This repository contains analysis materials associated with the psychometric validation of the TF-Col, a patient- and caregiver-reported measure of financial toxicity in oncology in Colombia.
+The individual-level dataset used in this study is **not shared** in this repository.
 
-## Manuscript
+The data contain sensitive clinical and sociodemographic information from oncology patients and caregivers. Access and reuse are restricted under the approvals granted by the participating institutions' research ethics committees, which retain custody of the underlying clinical records. For this reason, only the analysis code and aggregate outputs (tables and figures) are made publicly available.
 
-**Title:** Development and Psychometric Validation of the TF-Col: A Patient- and Caregiver-Reported Measure of Financial Toxicity in Oncology.
+## To run the code
 
-**Journal:** Value in Health Regional Issues
+The scripts expect a single Excel file at:
 
-## Repository contents
+```
+data/tfcol_dataset.xlsx
+```
 
-This repository is intended to include:
+with the variables described in `codebook.csv` (85 variables; the 20 TF-Col items are `imf01_IF`–`imf10_IF` and `imps01_Ips`–`imps10_Ips`, scored 0–4). The scripts read the first sheet and apply `janitor::clean_names()` internally.
 
-- R scripts used for statistical analyses.
-- Codebooks or variable dictionaries.
-- Supplementary tables and outputs.
-- Documentation supporting reproducibility.
+Researchers who wish to discuss data access for legitimate scientific purposes may contact the corresponding author; any sharing would be subject to the relevant ethics approvals and institutional data-protection requirements.
 
-## Data availability
-
-The original patient-level dataset is not publicly available due to ethical and privacy restrictions. Any files shared in this repository are intended to support transparency and reproducibility without compromising participant confidentiality.
-
-## Citation
-
-If you use or refer to this repository, please cite the associated manuscript once published.
-
-## License
-
-Code in this repository is shared under the MIT License.
