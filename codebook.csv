@@ -1,0 +1,86 @@
+variable,description,category,response_scale
+Record ID,Id record,Sociodemographic / clinical,
+Tipo de población,,Sociodemographic / clinical,
+1_ciudad,Ciudad,Sociodemographic / clinical,
+2_fecha,Fecha en que se aplicó el instrumento,Sociodemographic / clinical,
+3_nombre,Nombre o inicial del paciente o cuidador,Sociodemographic / clinical,
+4_cedula,Número de documento de identidad,Sociodemographic / clinical,
+5_sexo_paciente,Sexo del paciente,Sociodemographic / clinical,
+6_edad_paciente,Edad especifica del paciente,Sociodemographic / clinical,
+7_sexo_cuidador,Sexo del cuidador,Sociodemographic / clinical,
+8_edad_cuidador,Edad del cuidador,Sociodemographic / clinical,
+9_edad_cat_paciente,Edad categorizada del paciente,Sociodemographic / clinical,
+10_dx_paciente,Diagnóstico reportado por el paciente en el momento de la aplicación.,Sociodemographic / clinical,
+11_dx_cat_paciente,Categoría asignada para clasificar el paciente,Sociodemographic / clinical,
+12_tiempo_dx,Tiempo reportado de tener el diagnóstico al momento de la aplicación,Sociodemographic / clinical,
+12.1_tiempo_dx_anos,Tiempo reportado de tener el diagnóstico al momento de la aplicación transformado en añios,Sociodemographic / clinical,
+13_tiempo_cat_dx,Categoría de tiempo asignada al tiempo reportado por paciente de tener el diagnóstico,Sociodemographic / clinical,
+14_ciudad_dx,Municipio o ciudad donde reportó haber estado el paciente en el momento del diagnóstico,Sociodemographic / clinical,
+14.1_departamento_dx,Departamento donde reportó haber estado el paciente en el momento del diagnóstico,Sociodemographic / clinical,
+14.2_region_dx,Region del país donde reportó haber estado el paciente en el momento del diagnóstico,Sociodemographic / clinical,
+15_zona_dx,Tipo de zona reportada por el paciente al momento del diagnóstico,Sociodemographic / clinical,
+16_estrato_dx,Estrato socioeconómico reportado por paciente según el recibo de la energía electrica al momento del diagnóstico,Sociodemographic / clinical,
+17_regimen_dx,Régimen de salud reportado por el paciente al momento del diagnóstico,Sociodemographic / clinical,
+18_prepagada_dx,Reporte del paciente si cuenta con un servicio de prepagada en salud o plan complementario en el momento del diangóstico,Sociodemographic / clinical,
+19_trabajo_dx,Reporte del paciente si contaba con trabajo en el momento del diagnóstico,Sociodemographic / clinical,
+20_causa_notrabajo_dx,Reporte del paciente de razón del desempleo en el momento del diagnóstico,Sociodemographic / clinical,
+21_salario_dx,Salario o ingresos reportados en SMMLV en el momento del diágnóstico,Sociodemographic / clinical,
+22_ciudad_now,Ciudad o municipio donde el paciente vive actualmente,Sociodemographic / clinical,
+22.1_departamento_now,Departamento donde el paciente vive actualmente,Sociodemographic / clinical,
+22.2_region_now,Regiòn del país donde el paciente vive actualmente,Sociodemographic / clinical,
+23_cambiociudad,Variable calculada que compara si existió un cambio de ciudad entre el momento del diagnóstico y el momento de aplicación,Sociodemographic / clinical,
+24_tipozona_now,Tipo de zona donde reside el paciente actualmente,Sociodemographic / clinical,
+25_estrato_now,Reporte del nivel socioeconómico reportado por el paciente según el recibo de energía electrica en el momento de la aplicación del instrumento,Sociodemographic / clinical,
+26_regimen_now,Reporte del tipo de régimen de salud del paciente al momento de la aplicación,Sociodemographic / clinical,
+27_prepagada_now,Reporte del paciente si cuenta con un plan complementario o pregrada en el momento de la aplicación del instrumento,Sociodemographic / clinical,
+28_niveleducativo,Reporte del paciente del último nivel educativo aprobado,Sociodemographic / clinical,
+29_trabajo_now,Reporte del paciente si actualmente cuenta con trabajo,Sociodemographic / clinical,
+30_cambio_trabajo,Variable calculada comparando las variables de si el paciente tenia trabajo en el momento del diagnóstico y actualmente,Sociodemographic / clinical,
+31_causadesempleo_now,Reporte del paciente de la causa del desempleo,Sociodemographic / clinical,
+32_tiempodesempleo,Reporte del paciente del rango de tiempo de desempleo,Sociodemographic / clinical,
+33_salario_now,Reporte del salario o ingresos actuales en SMLV del paciente al momento de la aplicación del instrumento,Sociodemographic / clinical,
+34_cambio_salario,Variable calculada comparando los rangos de ingresos según los SMLV del momento del diagnóstico al momento de la aplicación del instrumento,Sociodemographic / clinical,
+34.1_cambio_salario_cat,Variable categorizada que reporta si hubo cambio de ingresos al  momento del diagnóstico y el momento de la aplicación del instrumento,Sociodemographic / clinical,
+COST1,Item 1 del COST ( Item inverso),COST-FACIT item,
+COST2,Item 2 del COST ( Item directo),COST-FACIT item,
+COST3,Item 3 del COST ( Item directo),COST-FACIT item,
+COST4,Item 4 del COST ( Item directo),COST-FACIT item,
+COST5,Item 5 del COST ( Item directo),COST-FACIT item,
+COST6,Item 6 del COST ( Item inverso),COST-FACIT item,
+COST7,Item 7 del COST ( Item inverso),COST-FACIT item,
+COST8,Item 8 del COST ( Item directo),COST-FACIT item,
+COST9,Item 9 del COST ( Item directo),COST-FACIT item,
+COST10,Item 10 del COST ( Item directo),COST-FACIT item,
+COST11,Item 11 del COST ( Item directo),COST-FACIT item,
+COST12,Item 12 - No puntua para el puntaje total (Es usado como un indicador),COST-FACIT item,
+Puntaje_cost,"Puntaje total del COST, estimado de acuerdo con las instrucciones de FACIT- COST. A mayor puntaje mayor bienestar financiero",COST-FACIT total score,
+imf01_IF,Se me dificulta pagar cumplidamente los gastos básicos del hogar por la enfermedad.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps01_Ips,Me estresa pensar que no tengo cómo pagar las deudas generadas por la enfermedad.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf02_IF,"Por el tratamiento de la enfermedad, tengo mayores problemas para pagar mis gastos.",TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps02_Ips,Me preocupan los problemas económicos que tendré en el futuro como resultado de mi enfermedad.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf03_IF,Por la enfermedad me falta dinero para mis gastos como vivienda y mercado.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps03_Ips,Mis preocupaciones financieras a causa de la enfermedad me generan problemas para dormir.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf04_IF,"Desde que comenzó la enfermedad, me ha resultado difícil pagar los gastos familiares.",TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps04_Ips,Tengo miedo de no saber cómo pagar los gastos generados por la enfermedad.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf05_IF,Siento que me cuesta asumir los gastos básicos de mi familia.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps05_Ips,Cada día me siento menos capaz de asumir los gastos de la enfermedad.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf06_IF,Me he visto en la necesidad de dejar de pagar unas deudas para suplir necesidades de mi tratamiento.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps06_Ips,Desde que comenzó la enfermedad me frustra no poder realizar mis labores del mismo modo en que lo hacía antes.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf07_IF,Creo que venderé algunas de mis pertenencias para poder asumir los gastos del tratamiento.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps07_Ips,"Desde que comenzó el tratamiento, no cuento con suficiente dinero ni tiempo para disfrutar de mis momentos de descanso.",TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf08_IF,He tenido que buscar dinero prestado a mis familiares para asumir los gastos que implica la enfermedad.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps08_Ips,Mis relaciones familares se han visto afectadas por las dificultades económicas producto de la enfermedad.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf09_IF,Mi trabajo se ha visto afectado por el tratamiento.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps09_Ips,La enfermedad ha sido una dificultad económica para mí y para mi familia.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imf10_IF,Tengo que asumir muchos gastos adicionales al tratamiento que no se contempla en el seguro médico.,TF-Col item - Financial Impact (IF),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+imps10_Ips,La relación con mis amigos se ha visto afectada a raíz de la enfermedad.,TF-Col item - Psychosocial Impact (Ips),"0-4 (0=NADA,1=UN POCO,2=ALGO,3=MUCHO,4=MUCHÍSIMO)"
+PUNTAJE_IF,"Puntaje Impacto Financiero, estimado de la sumatoria de los items de la dimensión IF",TF-Col score,
+PUNTAJE_Ips,"Puntaje Impacto Psicosocial, estimado de la sumatoria de los items de la dimensión Ips",TF-Col score,
+PUNTAJE_TF,Puntaje Global del TF como la sumatoria de todos los ítems,TF-Col score,
+Rango_TF,,TF-Col score,
+DF_QL,Puntaje estimado según las indicaciones del instrumento de calidad de vida PedsQl - Dimensión Desempeño físico,PedsQL score,
+DE_QL,Puntaje estimado según las indicaciones del instrumento de calidad de vida PedsQl - Dimensión Desempeño emocional,PedsQL score,
+DS_QL,Puntaje estimado según las indicaciones del instrumento de calidad de vida PedsQl - Dimensión Desempeño social,PedsQL score,
+Des_QL,Puntaje estimado según las indicaciones del instrumento de calidad de vida PedsQl - Dimensión Desempeño escolar,PedsQL score,
+Score_PsicoSocial_QL,Puntaje estimado del indicador de Desempeño de Salud Psicosocial  instrumento según las indicaciones del instrumento de calidad de vida PedsQl,PedsQL score,
+ScoreTotal_QL,Puntaje estimado Global del instrumento según las indicaciones del instrumento de calidad de vida PedsQl,PedsQL score,
