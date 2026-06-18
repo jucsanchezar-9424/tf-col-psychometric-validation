@@ -1,0 +1,21 @@
+item,Domain,g,F1*,F2*,h2
+imf01_if,Financial Impact,0.705,0.546,-0.053,0.798
+imf02_if,Financial Impact,0.738,0.558,-0.043,0.858
+imf03_if,Financial Impact,0.726,0.5,0.007,0.777
+imf04_if,Financial Impact,0.714,0.535,-0.037,0.797
+imf05_if,Financial Impact,0.791,0.463,0.089,0.849
+imf06_if,Financial Impact,0.699,0.449,0.039,0.692
+imf07_if,Financial Impact,0.545,0.402,-0.021,0.459
+imf08_if,Financial Impact,0.634,0.494,-0.051,0.649
+imf09_if,Financial Impact,0.443,0.359,-0.05,0.328
+imf10_if,Financial Impact,0.578,0.312,0.092,0.44
+imps01_ips,Psychosocial Impact,0.75,0.364,0.16,0.72
+imps02_ips,Psychosocial Impact,0.739,0.305,0.211,0.684
+imps03_ips,Psychosocial Impact,0.602,0.335,0.085,0.481
+imps04_ips,Psychosocial Impact,0.835,0.038,0.545,0.995
+imps05_ips,Psychosocial Impact,0.774,0.493,0.047,0.844
+imps06_ips,Psychosocial Impact,0.617,0.395,0.036,0.538
+imps07_ips,Psychosocial Impact,0.682,0.411,0.065,0.638
+imps08_ips,Psychosocial Impact,0.564,0.334,0.06,0.433
+imps09_ips,Psychosocial Impact,0.696,0.523,-0.037,0.76
+imps10_ips,Psychosocial Impact,0.431,0.269,0.032,0.259
